@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-8xl font-bold underline pl-16;
+    }
+
+    p {
+        @apply text-5xl pl-16;
+    }
+
+    /* ... */
+}

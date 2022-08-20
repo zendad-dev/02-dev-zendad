@@ -1,2 +1,5 @@
-<h1 class="text-3xl font-bold underline">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="h-screen grid place-content-center bg-green-300">
+
+<h1 >Bondad, Felicidad, Zendad</h1>
+<p class="tex-3xl">¡Increíble!</p>
+</div>
