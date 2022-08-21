@@ -1,8 +1,12 @@
 import { sveltekit } from '@sveltejs/kit/vite';
-
-/** @type {import('vite').UserConfig} */
-const config = {
-	plugins: [sveltekit()]
-};
-
-export default config;
+import { defineConfig } from 'vite';
+import dns from 'dns'
+dns.setDefaultResultOrder('verbatim')
+export default defineConfig({
+	plugins: [sveltekit()],
+kit: {
+		fs: {
+			strict: false
+		}
+	}
+})
